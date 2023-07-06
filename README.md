@@ -1,4 +1,4 @@
-Dr. Metzger's Programming Doctor - Marketplace Project
+## Dr. Metzger's Programming Doctor - Marketplace Project
 Welcome to Dr. Metzger's Programming Doctor Marketplace project! This repository contains a PHP application built on PHP version 8.2.7. The project aims to provide a comprehensive and efficient marketplace solution. Please note that this README file will provide an overview of the project structure, functionality, and important instructions for setting up and running the application.
 
 Table of Contents
