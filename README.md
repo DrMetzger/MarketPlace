@@ -62,7 +62,7 @@ To set up the Dr. Metzger's Programming Doctor Marketplace project locally, plea
 
 1. Clone the repository to your local machine using the following command:
 
-git clone https://github.com/your_username/repository_name.git
+git clone [https://github.com/DrMetzger/MarketPlace.git]
 
 
 2Ensure you have PHP version 8.2.7 or compatible installed on your system.
