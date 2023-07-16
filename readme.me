@@ -1,0 +1,40 @@
+# Documentação da Aplicação
+
+## Introdução
+Esta aplicação em Python automatiza o processo de cadastro da taxa da moeda PTAX de compra no sistema ERP TOTVS Protheus. Ela utiliza a biblioteca PyAutoGUI para interagir com a interface gráfica do sistema e o web service do Banco Central para obter a cotação da moeda.
+
+## Requisitos
+- Python 3.10.10
+- Bibliotecas:
+  - requests
+  - pyautogui
+  - Pillow
+  - pytesseract
+  - smtplib
+  - email
+
+Certifique-se de ter o Python 3.10.10 instalado juntamente com as bibliotecas mencionadas antes de executar a aplicação.
+
+## Instalação das Dependências
+1. Abra o terminal ou prompt de comando.
+2. Execute o seguinte comando para instalar as dependências:
+
+pip install requests pyautogui Pillow pytesseract smtplib email
+
+## Utilização
+1. Faça o download do código-fonte da aplicação em um diretório local.
+2. Abra o arquivo `main.py` em um editor de texto.
+3. Configure as constantes `INICIO_SMARTCLIENT_IMG`, `BOAS_VINDAS_IMG`, `BOAS_VINDAS_ADMIN_IMG` e outras imagens com os caminhos corretos das imagens utilizadas pela aplicação. Certifique-se de que as imagens necessárias estejam disponíveis nos caminhos especificados.
+4. Configure as constantes `CAMINHO_SMARTCLIENT` com o caminho correto para o executável do SmartClient do TOTVS Protheus.
+5. Configure as informações de e-mail na função `enviar_email_anexo` para permitir o envio de evidências do cadastro por e-mail.
+6. Abra o terminal ou prompt de comando.
+7. Navegue até o diretório onde o código-fonte da aplicação foi salvo.
+8. Execute o seguinte comando para iniciar a aplicação:
+
+A aplicação automatizará o processo de cadastro da taxa da moeda PTAX de compra para o dia seguinte no sistema ERP TOTVS Protheus. O processo inclui o acesso ao sistema, login, navegação pelas telas, inserção da taxa no formulário, verificação de registros existentes e envio de e-mail com a evidência do cadastro.
+
+## Notas Adicionais
+- A aplicação utiliza o web service do Banco Central para obter a cotação da moeda PTAX de compra para o dia seguinte. Certifique-se de que o web service esteja acessível e forneça as informações corretas.
+- A aplicação utiliza técnicas de reconhecimento de imagem para localizar elementos na interface gráfica do sistema. Certifique-se de que as imagens utilizadas estejam atualizadas e correspondam à interface do sistema.
+- A aplicação está configurada para funcionar em um ambiente específico com as configurações de tela e interface do sistema ERP TOTVS Protheus. É possível que seja necessário ajustar as coordenadas e os tempos de espera para que a aplicação funcione corretamente em outro ambiente.
+- Certifique-se de que todas as dependências estejam instaladas corretamente antes de executar a aplicação.
